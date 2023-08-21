@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Final</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Cadastro Final</h1>
+    </header>
+
+    <main>
+        <section id="section1">
+            <label for="codigo">Código</label>
+            <input type="text" name="codigo" id="codigo">
+
+            <label for="produto">Produto</label>
+            <input type="text" name="produto" id="produto">
+
+            <label for="quantidade">Quantidade</label>
+            <input type="number" name="quantidade" id="quantidade">
+
+            <label for="preco_uni">Preço Unit</label>
+            <input type="number" name="preco_uni" id="preco">
+
+            <button onclick="cadastrarProduto()">Cadastrar</button>
+        </section>
+        <section id="section2">
+            <button onclick="apagarObjetoLS()">Apagar</button>
+            <label for="posicao">Posição (0 a ...)</label>
+            <input type="number" name="posicao" id="posicao">
+        </section>
+
+        <table id="table" border="1px solid black">
+            <tr>
+                <th>Código</th>
+                <th>Produto</th>
+                <th>Qtde</th>
+                <th>Preço Unit</th>
+                <th>Total</th>
+            </tr>
+        </table>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

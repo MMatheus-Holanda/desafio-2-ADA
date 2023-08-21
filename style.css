@@ -1,0 +1,112 @@
+body{
+    background-color: #eae2b7;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0450c2;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+label, input, button{
+    margin: 5px;
+}
+
+label{
+    font-size: 24px;    
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #0450c2;
+}
+
+input{
+    width: 200px;
+    height: 30px;
+    font-size: 18px;
+    font-weight: 500;
+    outline-color: #f77f00;
+}
+
+table{
+    margin-top: 10px;
+}
+
+#section1, #section2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#section1{
+    border: 2px solid #f77f00;
+    border-radius: 10px;
+    width: 400px;
+    height: 400px;
+    background-color: #fcbf49;
+    margin-bottom: 10px;
+}
+
+#section1 button{
+    background-color: green;
+    height: 40px;
+    width: 110px;
+    border-radius: 15px;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+#section2{
+    border: 2px solid #ff1101;
+    background-color: #fa6450;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    width: 400px;
+    height: 130px;
+}
+
+#section2 button{
+    background-color: red;
+    height: 40px;
+    width: 110px;
+    border-radius: 15px;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+table{
+    width: 500px;
+    border: 2px solid #f77f00;
+    background-color: rgba(230, 230, 230, 0.89);
+}
+
+th{
+    border: 2px solid #f77f00;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+td{
+    border: 2px solid #f77f00;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
